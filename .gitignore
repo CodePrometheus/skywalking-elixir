@@ -8,3 +8,20 @@ erl_crash.dump
 *.beam
 /config/*.secret.exs
 .elixir_ls/
+
+# The directory Mix will write compiled artifacts to.
+/_build/
+
+# If you run "mix test --cover", coverage assets end up here.
+/cover/
+
+# The directory Mix downloads your dependencies sources to.
+/deps/
+
+# Ignore package tarball (built via "mix hex.build").
+skywalking_elixir-*.tar
+
+# Temporary files, for example, from tests.
+/tmp/
+.idea
+.DS_Store
